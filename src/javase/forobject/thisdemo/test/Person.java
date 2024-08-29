@@ -1,4 +1,4 @@
-package javase.forobject.thisdemo;
+package javase.forobject.thisdemo.test;
 
 public class Person {
 
