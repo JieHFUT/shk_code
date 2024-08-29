@@ -8,8 +8,7 @@ public class TestOverride {
         System.out.println("=========================");
         student.sleep();
 
-
         Student student2 = new Student(20,"HFUT");
-        
+
     }
 }
