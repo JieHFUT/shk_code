@@ -5,5 +5,11 @@ public class TestOverride {
 
         Student student = new Student();;
         student.eat();
+        System.out.println("=========================");
+        student.sleep();
+
+
+        Student student2 = new Student(20,"HFUT");
+        
     }
 }
