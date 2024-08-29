@@ -1,4 +1,4 @@
-package javase.forobject.jicheng.demo;
+package javase.forobject.jicheng.override;
 
 public class Person {
 

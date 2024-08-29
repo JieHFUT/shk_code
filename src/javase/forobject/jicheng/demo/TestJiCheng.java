@@ -15,6 +15,10 @@ public class TestJiCheng {
         student.eat();
         student.goToSchool();
 
+        // 找父类
+        System.out.println(student.getClass().getSuperclass());
+        System.out.println(student.getClass().getSuperclass().getSuperclass());
+
 
     }
 }
