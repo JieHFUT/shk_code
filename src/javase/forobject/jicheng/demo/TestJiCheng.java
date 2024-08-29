@@ -11,7 +11,7 @@ public class TestJiCheng {
         person.sleep();
 
         Student student = new Student();
-        System.out.println("name is " + student.getName());
+        System.out.println("student name is " + student.getName());
         student.eat();
         student.goToSchool();
 
