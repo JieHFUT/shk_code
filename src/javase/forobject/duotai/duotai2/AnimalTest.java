@@ -15,7 +15,7 @@ public class AnimalTest {
         AnimalTest animalTest = new AnimalTest();
         animalTest.adopt(new Dog());
         animalTest.adopt(new Cat());
-
+        animalTest.adopt(new Dog());
 
     }
 }
