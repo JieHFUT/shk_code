@@ -10,6 +10,14 @@ public class Person implements Cloneable{
     public String name;
     public int age;
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public void eat(){
         System.out.println("person eat pork");
     }

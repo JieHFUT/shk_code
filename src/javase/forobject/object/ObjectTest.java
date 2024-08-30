@@ -2,6 +2,8 @@ package javase.forobject.object;
 
 import javase.forobject.object.Person;
 
+import java.util.Date;
+
 public class ObjectTest {
 
 
@@ -46,6 +48,8 @@ public class ObjectTest {
      */
     public static void main(String[] args) {
 
+        Object object = new Object();
+
         Person person = new Person();
         person.age = 18;
         try {
@@ -61,14 +65,16 @@ public class ObjectTest {
         // 类似String类就重写了equals()方法，自己写的类可以利用 IDE 自动生成
         String str1 = new String("hello");
         String str2 = new String("hello");
-        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str2)); // true
 
 
-
-
-
-
-
+        // toString
+        // Obiect 类中 toString() => 地址
+        //          重写 toString() 的 File 类  => 文件路径
+        //          重写 toString() 的 Date 类  => 现在时间
+        System.out.println(person.toString());
+        Date date = new Date();
+        System.out.println(date.toString());
 
 
     }
