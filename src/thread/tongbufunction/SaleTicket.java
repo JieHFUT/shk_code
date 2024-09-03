@@ -6,6 +6,12 @@ public class SaleTicket implements Runnable {
     int ticketNum = 1000;
     @Override
     public void run() {
+        saleTicket();
+    }
+
+
+
+    public synchronized void saleTicket() { // 此时的同步监视器是 this
         boolean flag = true;
         while (flag) {
             if (ticketNum > 0) {
