@@ -1,4 +1,4 @@
-package thread.testthreadsafe;
+package thread.tongbufunction;
 
 public class WindowTest1 {
 
@@ -20,6 +20,7 @@ public class WindowTest1 {
             e.printStackTrace();
         }
         System.out.println("卖出去的票一共有: " + SaleTicket1.sale + " 张");
+
 
     }
 }

@@ -1,4 +1,4 @@
-package thread.testthreadsafe;
+package thread.tongbufunction;
 
 public class WindowTest {
 
@@ -6,12 +6,9 @@ public class WindowTest {
 
         SaleTicket saleTicket = new SaleTicket();
 
-        Thread thread1 = new Thread(saleTicket,"windows-1");
-        Thread thread2 = new Thread(saleTicket,"windows-2");
-        Thread thread3 = new Thread(saleTicket,"windows-3");
-        thread1.start();
-        thread2.start();
-        thread3.start();
+        new Thread(saleTicket).start();
+        new Thread(saleTicket).start();
+        new Thread(saleTicket).start();
 
         try {
             Thread.sleep(1000);
