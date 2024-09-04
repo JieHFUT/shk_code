@@ -5,7 +5,11 @@ public class BankTest {
     // 饿汉式
     public static void main(String[] args) {
         Bank bank = Bank.getInstance();
+        bank = null;
+        System.out.println(bank);
 
+        Bank bank1 = Bank.getInstance();
+        System.out.println(bank1);
     }
 }
 
