@@ -15,8 +15,6 @@ public class BankTest {
 
 
 
-
-
 class Bank {
     private Bank() {
     }
