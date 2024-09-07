@@ -110,6 +110,7 @@ public class CollectionTest {
         coll.add(128);//自动装箱
         coll.add(new String("尚硅谷"));
         System.out.println(coll);
+
 //        coll.clear();
 //        System.out.println(coll);
 //        System.out.println(coll.size());//0
