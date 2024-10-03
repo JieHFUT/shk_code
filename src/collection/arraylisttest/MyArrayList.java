@@ -10,4 +10,6 @@ package collection.arraylisttest;
  * @Version 1.0
  */
 public class MyArrayList {
+
+
 }
