@@ -4,7 +4,7 @@ package thread.threadtongbu.threadsafe;
  * ClassName: Window
  * Package: thread.threadtongbu.threadsafe
  * Description:
- * 此线程是一个买票窗口，通过继承 Thread 的方法来实现线程
+ * 此线程是一个买票窗口，通过继承 Thread 的方法来实现线程 同步代码快的方式来实现同步 synchronized(lock){}
  * @Author jieHFUT
  * @Create 2024/10/14 21:59
  * @Version 1.0

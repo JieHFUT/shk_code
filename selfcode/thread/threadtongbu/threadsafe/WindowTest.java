@@ -21,5 +21,8 @@ public class WindowTest {
         window2.start();
         window3.start();
 
+
+
+
     }
 }
