@@ -4,7 +4,7 @@ package thread.nomalfuncation;
  * ClassName: NomalFuncation
  * Package: thread.nomalfuncation
  * Description:
- *
+ * Compiled: 编译
  * @Author jieHFUT
  * @Create 2024/10/13 16:47
  * @Version 1.0
