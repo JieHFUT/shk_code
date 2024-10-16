@@ -1,6 +1,5 @@
 package thread.threadtongbu.runnablesafe;
 
-import javase.forobject.duotai.duotai2.Dog;
 
 /**
  * ClassName: Wndow
@@ -21,7 +20,6 @@ public class Window implements Runnable {
     // 下面是可以充当 锁 的类
     Class clazz = Window.class;
     Object object = new Object();
-    Dog dog = new Dog();
 
     @Override
     public void run() {
