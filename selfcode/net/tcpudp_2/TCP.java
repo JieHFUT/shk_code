@@ -6,11 +6,9 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.SocketAddress;
-import java.util.Arrays;
 
 // 例题3：从客户端发送文件给服务端，服务端保存到本地。并返回“发送成功”给客户端。并关闭相应的连接。
-public class TCP3 {
+public class TCP {
     
     @Test
     public void testClient() throws Exception {
