@@ -15,7 +15,10 @@ public class SparseArray {
     // 0 代表没有棋子
     // 1 代表有棋子
     int[][] array = new int[11][11];
-    
+
+    public static void main(String[] args) {
+        System.out.println("IC那我");
+    }
 
 
 }
